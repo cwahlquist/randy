@@ -1,0 +1,10 @@
+[environments]
+  [environments.development]
+    name = "randy"
+    namespace = "draftdev"
+    wait = false
+    watch = false
+    watch-delay = 2
+    auto-connect = false
+    dockerfile = "Dockerfile"
+    chart = "charts"
